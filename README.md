@@ -17,9 +17,11 @@ For this demo, I have designed and implemented a simple Scrapy solution we might
 
 ----------------
 ### Screenshot of current output in CSV format
+This is the output file when running ```scrapy crawl tescospider -O scraped-tesco-data.csv``` on our Terminal:
+
 ![image](https://user-images.githubusercontent.com/38634285/223577903-96fb1460-5fa1-47a0-a7d2-49be70ba36f0.png)
 
-As we can see, with our data in this format we can very easily start processing it by loading it into a Pandas Dataframe, or store it in our database.
+As we can see, with our data in this format, we can very easily feed it into the next stage of our process; whether that's processing it by loading it into a Pandas Dataframe, or store it in our database.
 
 ----------------
 ### Features
