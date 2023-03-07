@@ -12,16 +12,6 @@ class TescoSpider(scrapy.Spider):
     #Generate search urls from client items and base url
     start_urls = inputdata.generate_start_urls()
 
-    # start_urls = [
-    #             'https://www.tesco.com/groceries/en-GB/search?query=milk', 
-    #             'https://www.tesco.com/groceries/en-GB/search?query=peanut%20butter', 
-    #             'https://www.tesco.com/groceries/en-GB/search?query=chocolate', 
-    #             'https://www.tesco.com/groceries/en-GB/search?query=sugar'
-    #             ]
-
-
-
-
     def get_search_term_from_url(self, start_url: str) -> str:
 
         #Get search term by selecting substring after '='
