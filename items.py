@@ -6,7 +6,6 @@
 import scrapy
 
 
-class SkuuudledemoItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class TescoProduct(scrapy.Item):
+    name = scrapy.Field()
+    price = scrapy.Field()
