@@ -7,5 +7,6 @@ import scrapy
 
 
 class TescoProduct(scrapy.Item):
+    search_term = scrapy.Field()
     name = scrapy.Field()
     price = scrapy.Field()
